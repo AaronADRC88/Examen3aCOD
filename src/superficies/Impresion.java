@@ -17,8 +17,7 @@ public class Impresion {
     public static void squareArea() {
         System.out.println("what is the side length?");
         Atributos.var.setSideLength(sc.nextFloat());
-        //squareArea = sideLength * sideLength;
-        System.out.println("The area for your square: " + Atributos.var.getSquareArea());
+        System.out.println("The area for your square: " + Superficies.metodos());
     }
 
     public static void rectangleArea() {
@@ -26,8 +25,7 @@ public class Impresion {
         Atributos.var.setSideLength(sc.nextFloat());
         System.out.println("What is the rectangles height?");
         Atributos.var.setSideHeight(sc.nextFloat());
-        //rectangleArea = sideLength * sideHeight;
-        System.out.println("The area for your rectangle is: " + Atributos.var.getRectangleArea());
+        System.out.println("The area for your rectangle is: " + Superficies.metodos());
     }
 
     public static void triangleArea() {
@@ -35,15 +33,12 @@ public class Impresion {
         Atributos.var.setBaseLength(sc.nextFloat());
         System.out.println("What is the height of the triangle?");
         Atributos.var.setHeight(sc.nextFloat());
-        //triangleArea = (float) (0.5 * baseLength * height);
-        System.out.println("Your triangles area is: " + Atributos.var.getTriangleArea());
+        System.out.println("Your triangles area is: " + Superficies.metodos());
     }
 
     public static void circleArea() {
         System.out.println("What is the radius of the circle?");
         Atributos.var.setRadius(sc.nextFloat());
-        //circleArea = radius * radius;
-        //circleArea = (float) (3.14159265 * circleArea);
-        System.out.println("Your Circles area is " + Atributos.var.getCircleArea());
+        System.out.println("Your Circles area is " + Superficies.metodos());
     }
 }
