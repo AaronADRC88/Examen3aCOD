@@ -1,7 +1,15 @@
 package superficies;
 
+/**
+ *
+ * @author aferreiradominguez
+ */
 public class Superficies {
 
+    /**
+     *
+     * @return area deseada
+     */
     public static float metodos() {
         if (Atributos.var.getShapeType().equals("square")) {
             //add area calculations for square
@@ -30,6 +38,10 @@ public class Superficies {
         }
     }
 
+    /**
+     *
+     * @param args "Main"
+     */
     public static void main(String[] args) {
         Impresion.insertKind();
         Superficies.metodos();
