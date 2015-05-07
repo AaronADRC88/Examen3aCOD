@@ -5,6 +5,8 @@ public class Atributos {
     private String shapeType;
     private float squareArea, sideLength, sideHeight, rectangleArea, baseLength, height, triangleArea, radius, circleArea;
 
+    static Atributos var = new Atributos();
+
     public Atributos() {
     }
 
